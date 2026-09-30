@@ -1,0 +1,192 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36" version="29.6.1" pages="3">
+  <diagram name="Library_system" id="4u4drb77qUR7l7wqlp4L">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bIr07lx9y8UYwo4jI1pg-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Student" vertex="1">
+          <mxGeometry height="80" width="150" x="120" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bIr07lx9y8UYwo4jI1pg-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Librarian" vertex="1">
+          <mxGeometry height="80" width="150" x="570" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bIr07lx9y8UYwo4jI1pg-3" edge="1" parent="1" source="bIr07lx9y8UYwo4jI1pg-1" style="endArrow=classic;html=1;rounded=0;exitX=0.667;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="350" as="sourcePoint" />
+            <mxPoint x="330" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bIr07lx9y8UYwo4jI1pg-4" edge="1" parent="1" source="bIr07lx9y8UYwo4jI1pg-2" style="endArrow=classic;html=1;rounded=0;exitX=0.309;exitY=0.93;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="609" y="250" as="sourcePoint" />
+            <mxPoint x="490" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bIr07lx9y8UYwo4jI1pg-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Library&amp;nbsp;&lt;div&gt;Management&lt;/div&gt;&lt;div&gt;System&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="160" x="330" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="bIr07lx9y8UYwo4jI1pg-8" edge="1" parent="1" source="bIr07lx9y8UYwo4jI1pg-7" style="endArrow=classic;html=1;rounded=0;exitX=0.405;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="590" as="sourcePoint" />
+            <mxPoint x="395" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bIr07lx9y8UYwo4jI1pg-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Admin" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="620" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Cmcn-10GSblasRCq5n0-" name="Level_0_DFD">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H0E30vSkRzAgMABzBeeV-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Book&lt;div&gt;database&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="60" x="660" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="H0E30vSkRzAgMABzBeeV-2" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="User&lt;div&gt;Records&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="60" x="680" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="H0E30vSkRzAgMABzBeeV-4" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;direction=west;" value="" vertex="1">
+          <mxGeometry height="100" width="50" x="440" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="H0E30vSkRzAgMABzBeeV-5" edge="1" parent="1" source="H0E30vSkRzAgMABzBeeV-4" style="endArrow=classic;html=1;rounded=0;exitX=-0.08;exitY=0.616;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="H0E30vSkRzAgMABzBeeV-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="350" as="sourcePoint" />
+            <mxPoint x="450" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H0E30vSkRzAgMABzBeeV-6" parent="1" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;strokeColor=#FFFFFF;" value="Borrow&lt;div&gt;Book&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H0E30vSkRzAgMABzBeeV-7" parent="1" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;strokeColor=#FFFFFF;" value="Return&lt;div&gt;Abook&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="305" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="H0E30vSkRzAgMABzBeeV-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" value="" vertex="1">
+          <mxGeometry height="100" width="50" x="220" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="H0E30vSkRzAgMABzBeeV-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Student" vertex="1">
+          <mxGeometry height="80" width="120" x="80" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H0E30vSkRzAgMABzBeeV-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Librarian" vertex="1">
+          <mxGeometry height="80" width="130" x="70" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="H0E30vSkRzAgMABzBeeV-11" edge="1" parent="1" source="H0E30vSkRzAgMABzBeeV-10" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="320" />
+            </Array>
+            <mxPoint x="240" y="320" as="sourcePoint" />
+            <mxPoint x="690" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H0E30vSkRzAgMABzBeeV-12" parent="1" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;strokeColor=#FFFFFF;" value="Manage Inventory" vertex="1">
+          <mxGeometry height="50" width="180" x="330" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="H0E30vSkRzAgMABzBeeV-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Librarian" vertex="1">
+          <mxGeometry height="80" width="150" x="80" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="H0E30vSkRzAgMABzBeeV-14" edge="1" parent="1" source="H0E30vSkRzAgMABzBeeV-13" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" target="H0E30vSkRzAgMABzBeeV-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="660" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H0E30vSkRzAgMABzBeeV-15" parent="1" style="whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;strokeColor=#FFFFFF;" value="Manage users" vertex="1">
+          <mxGeometry height="50" width="180" x="330" y="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="edMnKo_Ozd9gJFsf8fcw" name="User_Case_Diagram">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-1" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="User&lt;div&gt;Record&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="60" x="350" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-3" edge="1" parent="1" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="80" />
+              <mxPoint x="300" y="80" />
+            </Array>
+            <mxPoint x="180" y="200" as="sourcePoint" />
+            <mxPoint x="340" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Student" vertex="1">
+          <mxGeometry height="80" width="120" x="120" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-7" edge="1" parent="1" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="190" />
+              <mxPoint x="330" y="190" />
+            </Array>
+            <mxPoint x="280" y="250" as="sourcePoint" />
+            <mxPoint x="370" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-8" edge="1" parent="1" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="310" />
+              <mxPoint x="380" y="310" />
+            </Array>
+            <mxPoint x="280" y="250" as="sourcePoint" />
+            <mxPoint x="380" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-9" edge="1" parent="1" source="XbLu7KLan9Zedw0zfNQE-4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="250" as="sourcePoint" />
+            <mxPoint x="370" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-15" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=west;" value="" vertex="1">
+          <mxGeometry height="130" width="180" x="490" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="244.5" as="sourcePoint" />
+            <mxPoint x="680" y="244.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-19" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Book&lt;div&gt;database&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="60" x="700" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Librarian" vertex="1">
+          <mxGeometry height="80" width="120" x="120" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Login" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Search book" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Return&amp;nbsp;&lt;div&gt;Book&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Borrow Book" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-26" edge="1" parent="1" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="430" />
+              <mxPoint x="720" y="380" />
+            </Array>
+            <mxPoint x="260" y="430" as="sourcePoint" />
+            <mxPoint x="720" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbLu7KLan9Zedw0zfNQE-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Update Inventory" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
